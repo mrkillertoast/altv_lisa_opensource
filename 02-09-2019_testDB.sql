@@ -328,7 +328,7 @@ CREATE TABLE IF NOT EXISTS `characters` (
   `isinsideinterior` tinyint(1) NOT NULL DEFAULT 0,
   PRIMARY KEY (`ID`),
   UNIQUE KEY `Character_Name` (`Character_Name`) USING HASH
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 ROW_FORMAT=COMPACT;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC;
 
 -- Dumping data for table lisa_srv.characters: ~2 rows (approximately)
 /*!40000 ALTER TABLE `characters` DISABLE KEYS */;
